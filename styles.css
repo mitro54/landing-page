@@ -78,7 +78,7 @@ main {
 button {
     background-color: #3882F6;
     color: #E5E7EB;
-    max-width: 100px;
+    width: 100px;
     margin: 10px;
     height: 30px;
     border: none;
@@ -129,7 +129,7 @@ h2 {
 .card-container {
     display: flex;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
 }
 
@@ -142,4 +142,59 @@ h2 {
     outline: 3px solid #3882F6;
     border-radius: 10px;
     text-align: center;
+}
+
+.section-2 {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 50px 200px 50px 200px;
+    text-align: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.signature {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 700;
+    padding-top: 0;
+}
+
+.section-3 {
+    display: flex;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.action-call {
+    font-weight: 700;
+}
+
+.button-2 {
+    width: 100px;
+    height: 30px;
+    outline: 2px white solid;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
