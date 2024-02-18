@@ -1,21 +1,25 @@
 body {
+    font-family: "Roboto", sans-serif;
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    max-height: 100dvh;
-    margin: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 header {
     font-size: 24px;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
-    padding-bottom: 84px;
+    height: 70px;
+    align-items: center;
+    max-width: 1000px;
+    justify-content: space-between;
 }
 
 .logo {
-    padding-top: 6px;
+    align-items: center;
 }
 
 a,
@@ -48,22 +52,31 @@ p {
 
 main {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    max-width: 1000px;
+    padding: 70px 0;
+    margin: 0 auto;
 }
 
 .info {
     display: flex;
     flex-direction: column;
     max-width: 50%;
+
 }
 
 button {
     background-color: #3882F6;
+    color: #E5E7EB;
     max-width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
 }
 
 .img-placeholder {
     background-color: #79797a;
     display: flex;
     align-items: center;
+    width: 100%;
 }
