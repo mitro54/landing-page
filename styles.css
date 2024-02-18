@@ -3,9 +3,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    max-width: 1000px;
-    margin: 0 auto;
-    box-sizing: border-box;
+    margin: 0;
 }
 
 header {
@@ -16,10 +14,13 @@ header {
     align-items: center;
     max-width: 1000px;
     justify-content: space-between;
+    padding: 0 70px;
+    margin: 0 auto;
 }
 
 .logo {
     align-items: center;
+    font-weight: 900;
 }
 
 a,
@@ -40,22 +41,23 @@ h1 {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
-    margin: 0;
+    margin: 0 10px;
 }
 
 p {
-    margin: 5px;
     font-size: 18px;
     color: #E5E7EB;
+    padding: 10px;
 
 }
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1000px;
-    padding: 70px 0;
+    height: 280px;
     margin: 0 auto;
+    padding: 70px;
 }
 
 .info {
@@ -69,6 +71,7 @@ button {
     background-color: #3882F6;
     color: #E5E7EB;
     max-width: 100px;
+    margin: 10px;
     height: 30px;
     border: none;
     border-radius: 5px;
@@ -78,5 +81,49 @@ button {
     background-color: #79797a;
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100%;
+}
+
+.section-1 {
+    background-color: white;
+    display: flex;
+    height: 280px;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.subtext {
+    color: #1F2937;
+}
+
+
+.card-container {
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    display: flex;
+    width: 180px;
+    height: 180px;
+    outline: 3px solid #3882F6;
+    border-radius: 10px;
 }
